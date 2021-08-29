@@ -26,6 +26,7 @@ img
     display: block;
     width: 100%;
     max-width: 100%;
+    border-radius: 5px;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -214,6 +215,13 @@ h1,h2,h3,h4,h5,h6
 }
 
 /*---------Estilos principales------------*/
+
+.food_1
+{
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .group--color .container
 {
     background: var(--orange);
@@ -233,6 +241,7 @@ h1,h2,h3,h4,h5,h6
 .column__title
 {
     font-size: 1.3em;
+    text-align: center;
 }
 
 .main__about__description .column:nth-child(2)
@@ -273,8 +282,8 @@ h1,h2,h3,h4,h5,h6
 .today-special__img
 {
     margin: auto;
-    /*podemos jugar con esta parte*/
-    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 .today-special__title
@@ -290,7 +299,7 @@ h1,h2,h3,h4,h5,h6
     font-weight: bold;
 }
 
-/*---------Estilos principales------------*/
+/*---------Estilos del footer------------*/
 
 .main-footer
 {
@@ -304,4 +313,76 @@ h1,h2,h3,h4,h5,h6
 {
     text-align: center;
     margin: 15px auto;
+}
+
+/*---------Estilos Responsive------------*/
+
+@media screen and (min-width:480px)
+{
+    .logo
+    {
+        color: var(--white);
+            
+    }
+
+    .main-header__contactInfo__phone
+    {
+        background: none;
+    }
+    .main-header__contactInfo__address
+    {
+        color: var(--white);
+    }
+
+    .main-nav
+    {
+        background: rgba(0,0,0,0.85);
+    }
+
+    .main
+    {
+        margin-bottom: 15px;
+    }
+
+    .banner
+    {
+        margin-top: -160px;
+        z-index: -1000;
+    }
+
+    .banner__img
+    {
+        height: 600px;
+    }
+
+    .banner__content
+    {
+        font-size: 2em;
+    }
+
+    .today-special .column
+    {
+        border: 5px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .today-special__img
+    {
+        height: 200px;
+    }
+
+    .column--50
+    {
+        width: 49%;
+    }
+
+    .column--50-25
+    {
+        width: 49%;
+    }
+
+    .column--33
+    {
+        width: 32%;
+    }
 }
