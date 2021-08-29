@@ -1,0 +1,29 @@
+.group__tilte
+{
+    text-align: center;
+    font-size: 28.8px;
+    margin: 30px;
+}
+
+.our-team__title
+{
+    text-align: center;
+    font-size: 1.8em;
+    color: var(--orange);
+}
+.our-team__img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.our-team__txt
+{
+    text-align: center;
+    padding: 0 10px;
+}
+
+/**Poner media queries/
