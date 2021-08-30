@@ -2,10 +2,24 @@
 {
     font-family: "Pacifico";
     src: url(../assets/font/Pacifico-Regular.ttf);
-
-/*     font-family: "Montserrat";
-    src: url(../assets/font/Montserrat-Regular.ttf); */
 }
+
+@font-face 
+{
+    font-family: "Montserrat";
+    src: url(../assets/font/Montserrat-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: "Montserrat";
+    font-weight: bold;
+    src: url(../assets/font/Montserrat-Bold.ttf);
+}
+
+
+
+
 *
 {
     box-sizing: border-box;
