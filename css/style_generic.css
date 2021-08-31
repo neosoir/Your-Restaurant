@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* html
+{
+    font-size: 62.5%;
+} */
+
 body
 {
     font-family: 'Montserrat', sans-serif;
@@ -283,4 +288,15 @@ h1,h2,h3,h4,h5,h6
 {
     text-align: center;
     margin: 15px auto;
+}
+
+.copy a
+{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.copy a:hover
+{
+    font-family: 'Pacifico', cursive;
 }

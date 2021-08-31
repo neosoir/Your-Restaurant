@@ -18,6 +18,8 @@
     object-fit: cover;
     border-radius: 50%;
     margin: 20px auto;
+    border: 5px solid #ddd;
+    padding: 5px;
 }
 
 .our-team__txt

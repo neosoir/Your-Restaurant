@@ -91,3 +91,10 @@
 {
     font-size: 1em;
 }
+
+/*----------Galeria------------*/
+
+.gallery .column--50-25
+{
+    width: 24%;
+}
