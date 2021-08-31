@@ -1,0 +1,54 @@
+/*---------Estilos principales------------*/
+
+.food_1
+{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: var(--orange);
+    color: var(--white);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+    /*pueder pasarse a otro archivo css*/
+
+
+
+.today-special .column
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.today-special__img
+{
+    margin: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.today-special__title
+{
+    font-size: 1.3em;
+    padding: 10px 0 20px 0;
+}
+
+.today-special__price
+{
+    font-size: 1.5em;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+
+

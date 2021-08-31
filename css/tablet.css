@@ -1,0 +1,100 @@
+/*Inicio*/
+.logo
+{
+    color: var(--white);
+        
+}
+
+.main-header__contactInfo
+{
+    text-align: end;
+    padding-right: 5px;
+}
+
+.main-header__contactInfo__phone
+{
+    background: none;
+}
+.main-header__contactInfo__address
+{
+    color: var(--white);
+}
+
+.main-nav
+{
+    background: rgba(0,0,0,0.85);
+}
+
+.main
+{
+    margin-bottom: 15px;
+}
+
+.banner
+{
+    margin-top: -160px;
+    z-index: -1000;
+}
+
+.banner__img
+{
+    height: 600px;
+}
+
+.banner__content
+{
+    font-size: 2em;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.today-special .column
+{
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+.today-special__img
+{
+    height: 200px;
+}
+
+/*alinear los contenedores*/
+
+.main-footer .container--flex
+{
+    align-items: flex-start;
+}
+
+.column--50
+{
+    width: 49%;
+}
+
+.column--50-25
+{
+    width: 49%;
+}
+
+.column--33
+{
+    width: 32%;
+    text-align: center;
+}
+
+/*Contacto*/
+
+    /*para alinear los bloques*/
+.contact .container--flex
+{
+    align-items: flex-start;
+}
+.contact-information p
+{
+    font-size: 0.85em;
+}
+
+.contact-information 
+{
+    border-bottom: none;
+    border-right: 1px solid #de423a;
+}

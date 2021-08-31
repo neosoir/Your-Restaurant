@@ -1,0 +1,93 @@
+/*----------Inicio------------*/
+
+.container
+{
+    width: 90%;
+    border-radius: 15px;
+}
+.logo
+{
+    font-size: 2em;
+}
+
+.banner
+{
+    margin-top: -180px;
+}
+.banner__img
+{
+    height: 700px;
+}
+
+.main-header__contactInfo__address, .main-header__contactInfo__phone
+{
+    padding-right: 0;
+    font-size: 1.3em;
+}
+
+.main-nav
+{
+    padding: 0;
+}
+
+.banner__content
+{
+    font-size: 2.5em;
+}
+
+/*Quitamos el icono de menu*/
+.icon-menu
+{
+    display: none;
+}
+
+.menu
+{
+    position: static;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.menu__link
+{
+    padding: 20px;
+}
+
+.group--color 
+{
+    margin-top: 30px 0;
+    padding: 20px;
+}
+
+.main__title
+{
+    font-size: 2.3em;
+}
+
+.column__title
+{
+    font-size: 1.7em;
+}
+
+.today-special__title
+{
+    font-size: 1.4em;
+}
+
+.today-special__price
+{
+    font-size: 1.8em;
+}
+
+.main-footer
+{
+    padding: 30px 0;
+}
+
+/*----------Contacto------------*/
+
+.contact-information p
+{
+    font-size: 1em;
+}

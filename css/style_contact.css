@@ -50,30 +50,5 @@
     font-size: 1em;
 }
 
-@media screen and (min-width:480px)
-{
-    /*para alinear los bloques*/
-    .contact .container--flex
-    {
-        align-items: flex-start;
-    }
-    .contact-information p
-    {
-        font-size: 0.85em;
-    }
 
-    .contact-information 
-    {
-        border-bottom: none;
-        border-right: 1px solid #de423a;
-    }
-}
 
-@media screen and (min-width:800px)
-{   
-    .contact-information p
-    {
-        font-size: 1em;
-    }
-
-}

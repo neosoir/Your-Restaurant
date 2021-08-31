@@ -1,0 +1,286 @@
+/*----------Reiniciar los estilos del browser----------*/
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*----------Tipografias----------*/
+
+@font-face 
+{
+    font-family: "Pacifico";
+    src: url(../assets/font/Pacifico-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: "Montserrat";
+    src: url(../assets/font/Montserrat-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: "Montserrat";
+    font-weight: bold;
+    src: url(../assets/font/Montserrat-Bold.ttf);
+}
+
+/*----------Declarar variables----------*/
+:root
+{
+--orange: #de423a;
+--white: white;
+--black: black;
+}
+
+/*----------Estilos base----------*/
+
+img
+{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+}
+
+.container--flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column
+{
+    width: 100%;
+}
+
+/*----------Estilos header----------*/
+
+.main-header
+{
+    width: 100%;
+}
+
+.logo
+{
+    font-size: 1.8em;
+    color: var(--orange);
+    font-weight: 100;
+}
+
+.main-header__contactInfo__phone
+{
+    background: var(--orange);
+    color: var(--white);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main-header__contactInfo__phone
+{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*----------Estilos menu----------*/
+
+.main-nav
+{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+
+.icon-menu
+{
+    display: block;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.social-icon
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon  i
+{
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35px;
+    height: 35px;
+    background: var(--white);
+    border-radius: 50%;
+}
+
+.social-icon__link
+{
+    text-decoration: none;
+}
+
+.menu
+{
+    /*display none es para ocultar el menu temporalmente*/
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.85);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    /*para animar el menu*/
+    height: 0;
+    overflow: hidden;
+    /*animar despligue de menu*/
+    transition: height 0.3s linear;
+}
+
+.menu__link
+{
+    display: block;
+    padding: 15px;
+    color: var(--white);
+    text-decoration: none;
+}
+.menu__link:hover
+{
+    background: var(--orange);
+}
+
+.menu__link--select
+{
+    background: var(--orange);
+}
+
+.mostrar
+{
+    /*Es importante que sea y un numero para que pueda animarse*/
+    height: 196px;
+}
+
+/*----------Estilos banner----------*/
+
+.banner
+{
+    margin-top: -55px;
+    position: relative;
+}
+    /*Poner de color obscuro el banner*/
+.banner::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    top: 0;
+}
+
+.banner__img
+{
+    width: 100%;
+    height: 500px;
+    /*arreglar la imagen para que no se estire*/
+    object-fit: cover;
+}
+
+.banner__content
+{
+    width: 90%;
+    color: var(--white);
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.group__title
+{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8em;
+    margin: 30px;
+}
+
+.group--color .container
+{
+    background: var(--orange);
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
+
+.main__title
+{
+    margin: 15px 0;
+    font-weight: 100;
+    font-size: 1.8em;
+
+}
+
+.column__title
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.main__about__description .column:nth-child(2)
+{
+    padding: 10px;
+}
+
+/*----------Estilos del footer----------*/
+
+.main-footer
+{
+    background: #222;
+    color: var(--white);
+    padding: 20px 10px;
+    font-size: 0.8em;
+}
+
+.copy
+{
+    text-align: center;
+    margin: 15px auto;
+}

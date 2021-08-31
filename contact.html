@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Restaurant</title>
+    <title>Contacto | Your Restaurant</title>
     
     <!--favicon-->
     <link rel="icon" href="./assets/img/core.ico">
     <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!--Css-->
-    <link rel="stylesheet" href="./css/style_index.css">
+    <link rel="stylesheet" href="./css/style_contact.css">
     <!--Base-->
     <link rel="stylesheet" href="./css/style_generic.css">
     <!--Media Queries-->
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:680px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:1020px)">
+
 
 </head>
 <body>
@@ -50,54 +51,42 @@
     </nav>
 
     <section class="banner">
-        <img src="./assets/img/banner.jpg" alt="Banner" class="banner__img">
-        <div class="banner__content">La mejor y mas exquisita comida esta aquí</div>
+        <img src="./assets/img/banner_contact.jpg" alt="Banner" class="banner__img">
+        <div class="banner__content">Déjanos un mensaje</div>
     </section>
 
     <main class="main">
-        <section class="group group--color">
-            <div class="container">
-               <h2 class="main__title">Bienvenido a su restaurante</h2>
-               <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolor. Fugiat officia dolorem possimus nesciunt provident, praesentium doloribus temporibus aperiam eos, ut amet placeat unde explicabo dolores rem, aspernatur ea.</p> 
-            </div>
-        </section>
-        <section class="group main__about__description">
+        <div class="group contact">
+            <h2 class="group__title">Contáctenos</h2>
             <div class="container container--flex">
-                <div class="column column--50">
-                    <img class="food_1" src="./assets/img/food1.jpg" alt="">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Informacion de contacto</h3>
+                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus inventore nobis eligendi facilis fugit pariatur aperiam ab quis a ut.</p>
+                    <p class="column__txt"><i class="fas fa-phone-alt"></i> Telefono 1: 999-999-999</p>
+                    <p class="column__txt"><i class="fas fa-phone-alt"></i> Telefono 2: 555-555-555</p>
+                    <p class="column__txt"><i class="fas fa-map-marker-alt"></i>
+                        Calle Fancy 123, CDMX</p>
+                    <p class="column__txt"><i class="fas fa-envelope"></i> consult@yourestaurant.com</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social-icon__link"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social-icon__link"><i class="fas fa-envelope"></i></a>
+                    </div>
                 </div>
-                <div class="column column--50">
-                    <h3 class="column__title">Expertos en comida vegana</h3>
-                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt assumenda animi placeat quasi, dolor, unde beatae incidunt perferendis voluptate voluptatum quas minus autem blanditiis nihil. Debitis maiores molestias ratione inventore.</p>
-                    <a href="" class="btn btn__contact">Contact</a>
-                </div>
+                <form action="" method="post" class="formulario column column--50">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" class="formulario__input" name="nombre">
+                    <label for="" class="formulario__label">Telefono:</label>
+                    <input type="text" class="formulario__input" name="Telefono">
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="text" class="formulario__input" name="correo">
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    <input type="submit" name="" id="" class="btn formulario__btn" value="Enviar">
+
+                </form>
             </div>
-        </section>
-        <section class="group today-special">
-            <h2 class="group__title">Especiales de hoy</h2>
-            <div class="container container--flex">
-                <div class="column column--50-25">
-                    <img src="./assets/img/plane1.jpg" alt="" class="today-special__img">
-                    <div class="today-special__title">Especial del dia 1</div>
-                    <div class="today-special__price">$99</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="./assets/img/plane2.jpg" alt="" class="today-special__img">
-                    <div class="today-special__title">Especial del dia 2</div>
-                    <div class="today-special__price">$99</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="./assets/img/plane3.jpg" alt="" class="today-special__img">
-                    <div class="today-special__title">Especial del dia 3</div>
-                    <div class="today-special__price">$99</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="./assets/img/plane4.jpg" alt="" class="today-special__img">
-                    <div class="today-special__title">Especial del dia 4</div>
-                    <div class="today-special__price">$99</div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
     <footer class="main-footer">
         <div class="container container--flex">
@@ -117,10 +106,10 @@
                 <p class="column__txt"><i class="fab fa-twitter"> Síguenos en Twitter</i></p>
                 <p class="column__txt"><i class="fab fa-youtube"> Visita nuestro canal</i></p>                
             </div>
-                    <p class="copy">
-            © 2021 Your Restaurant. All Rights Reserved | Powered by 
-            <a title="Contacto" href="https://neosoir.com/contact/">Neo Soir</a>
-        </p>
+            <p class="copy">
+                © 2021 Your Restaurant. All Rights Reserved | Powered by 
+                <a title="Contacto" href="https://neosoir.com/contact/">Neo Soir</a>
+            </p>
         </div>
     </footer>
     <script src="./js/menu.js"></script>
