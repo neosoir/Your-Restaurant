@@ -1,28 +1,49 @@
+/*----------Genericos----------*/
+.menu__link
+{
+    font-size: 1.5rem;
+}
+
+.column__txt
+{
+    font-size: 1.5rem;
+}
+
+.group__title
+{
+    font-size: 2.6rem;
+}
+
+.btn
+{
+    font-size: 1.5rem;
+}
+
+
 /*----------Inicio------------*/
 
 .container
 {
     width: 90%;
-    border-radius: 15px;
+    border-radius: 1.5rem;
 }
 .logo
 {
-    font-size: 2em;
+    font-size: 4rem;
 }
 
 .banner
 {
-    margin-top: -180px;
+    margin-top: -18rem;
 }
 .banner__img
 {
-    height: 700px;
+    height: 70rem;
 }
 
 .main-header__contactInfo__address, .main-header__contactInfo__phone
 {
-    padding-right: 0;
-    font-size: 1.3em;
+    font-size: 1.5rem;
 }
 
 .main-nav
@@ -32,7 +53,7 @@
 
 .banner__content
 {
-    font-size: 2.5em;
+    font-size: 3.6rem;
 }
 
 /*Quitamos el icono de menu*/
@@ -51,50 +72,49 @@
 
 .menu__link
 {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .group--color 
 {
-    margin-top: 30px 0;
-    padding: 20px;
-}
-
-.main__title
-{
-    font-size: 2.3em;
+    margin-top: 3rem 0;
+    padding: 2rem;
 }
 
 .column__title
 {
-    font-size: 1.7em;
+    font-size: 2.4rem;
 }
 
 .today-special__title
 {
-    font-size: 1.4em;
+    font-size: 1.8rem;
 }
 
 .today-special__price
 {
-    font-size: 1.8em;
+    font-size: 1.9rem;
 }
 
 .main-footer
 {
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 
 /*----------Contacto------------*/
 
-.contact-information p
-{
-    font-size: 1em;
-}
+
 
 /*----------Galeria------------*/
 
 .gallery .column--50-25
 {
     width: 24%;
+}
+
+/*Footer*/
+
+.copy
+{
+    font-size: 1.6rem;
 }

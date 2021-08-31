@@ -1,23 +1,49 @@
-/*Inicio*/
+/*Genericos*/
+
+.menu__link
+{
+    font-size: 1.3rem;
+}
+
+img
+{
+
+    padding: 0;
+
+}
+
+.group__title
+{
+    font-size: 2.2rem;
+}
+
+
+.btn
+{
+    font-size: 1.3rem;
+}
+
 .logo
 {
-    color: var(--white);
-        
+    color: var(--white);  
+    font-size: 3.5rem;     
 }
 
 .main-header__contactInfo
 {
     text-align: end;
-    padding-right: 5px;
+    padding-right: 0.5rem;
 }
 
 .main-header__contactInfo__phone
 {
     background: none;
+    font-size: 1.3rem;
 }
 .main-header__contactInfo__address
 {
     color: var(--white);
+    font-size: 1.3rem;
 }
 
 .main-nav
@@ -27,35 +53,66 @@
 
 .main
 {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .banner
 {
-    margin-top: -160px;
+    margin-top: -16rem;
     z-index: -1000;
 }
 
 .banner__img
 {
-    height: 600px;
+    height: 60rem;
 }
 
 .banner__content
 {
-    font-size: 2em;
+    font-size: 3rem;
     transform: translateX(-50%) translateY(50%);
+}
+
+.social-icon i 
+{
+    font-size: 1.8rem;
+}
+
+
+
+
+
+/*Seccion ...*/
+
+.today-special__title
+{
+    font-size: 1.6rem;
+}
+
+.today-special__price
+{
+    font-size: 1.7rem;
 }
 
 .today-special .column
 {
-    border: 5px solid #ddd;
-    border-radius: 5px;
-    padding: 5px;
+    border: 0.5rem solid #ddd;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 .today-special__img
 {
-    height: 200px;
+    height: 20rem;
+}
+
+.column__title
+{
+    font-size: 2rem;
+}
+
+.column__txt
+{
+    font-size: 1.3rem;
 }
 
 /*alinear los contenedores*/
@@ -80,6 +137,88 @@
     width: 32%;
     text-align: center;
 }
+/*Nosotros*/
+
+.our-team__img
+{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+/*Galeria*/
+
+.gallery__img
+{
+    object-fit: cover;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    transition: all 0.1s;
+    padding: 0.9rem 0.26rem;
+    border-radius: 2.5rem;
+}
+
+.gallery__img:hover
+{
+    transform: scale(1.05);
+}
+
+/*-------Click en la img-------*/
+
+.modal
+{
+    width: 100%;
+    min-width: 100vw;
+    background: rgba(0,0,0,0.9);
+    /* para que no se mueva */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    display: none;
+}
+
+.modal__content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.modal__img
+{
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.modal__boton
+{
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 5rem;
+    height: 5rem;
+    background: #de423a;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0.5rem;
+    margin: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+/*Para que se muestre*/
+
+.modal--open
+{
+    display: block;
+}
 
 /*Contacto*/
 
@@ -88,13 +227,17 @@
 {
     align-items: flex-start;
 }
-.contact-information p
-{
-    font-size: 0.85em;
-}
+
 
 .contact-information 
 {
     border-bottom: none;
-    border-right: 1px solid #de423a;
+    border-right: 0.1rem solid #de423a;
+}
+
+/*Footer*/
+
+.copy
+{
+    font-size: 1.4rem;
 }

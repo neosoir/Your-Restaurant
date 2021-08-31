@@ -1,26 +1,26 @@
 .contact-information
 {
-    padding: 10px;
-    margin: 5px;
-    border-bottom:  1px solid #de423a;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-bottom:  0.1rem solid #de423a;
 }
 
 .contact-information .social-icon
 {
     justify-content: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .social-icon .fab, .social-icon .fas
 {
     background: black;
     color: white;
-    margin: 0 15px 0 0;
+    margin: 0 1.5rem 0 0;
 }
 
 .formulario
 {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .formulario__label, .formulario__input, .formulario__textarea
@@ -31,33 +31,19 @@
 
 .formulario__input
 {
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .formulario__textarea
 {
-    min-height: 100px;
+    min-height: 10rem;
     min-width: 100%;
-    max-height: 100px;
+    max-height: 10rem;
     max-width: 100%;
 }
 
 
-.formulario__btn
-{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 120px;
-    background: var(--orange);
-    color: var(--white);
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-}
+
 
 

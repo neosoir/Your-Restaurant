@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* html
+html
 {
     font-size: 62.5%;
-} */
+} 
 
 body
 {
@@ -50,9 +50,10 @@ body
 img
 {
     display: block;
+    padding: 0 0.5rem;
     width: 100%;
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 1rem;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -79,6 +80,27 @@ h1,h2,h3,h4,h5,h6
     width: 100%;
 }
 
+.column__txt
+{
+    font-size: 1.1rem;
+}
+
+.btn
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 12rem;
+    background: var(--orange);
+    color: var(--white);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
 /*----------Estilos header----------*/
 
 .main-header
@@ -88,9 +110,10 @@ h1,h2,h3,h4,h5,h6
 
 .logo
 {
-    font-size: 1.8em;
+    font-size: 3rem;
     color: var(--orange);
     font-weight: 100;
+    text-align: center;
 }
 
 .main-header__contactInfo__phone
@@ -98,13 +121,15 @@ h1,h2,h3,h4,h5,h6
     background: var(--orange);
     color: var(--white);
     margin: 0 auto;
-    padding: 10px;
+    padding: 1rem;
+    font-size: 1.1rem;
 }
 
-.main-header__contactInfo__phone
+.main-header__contactInfo__address
 {
     margin: 0 auto;
-    padding: 10px;
+    padding: 1rem;
+    font-size: 1.1rem;
 }
 
 /*----------Estilos menu----------*/
@@ -114,21 +139,21 @@ h1,h2,h3,h4,h5,h6
     width: 100%;
     position: relative;
     z-index: 2000;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .icon-menu
 {
     display: block;
     color: var(--white);
-    border: 1px solid var(--white);
-    border-radius: 3px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    border: 0.1rem solid var(--white);
+    border-radius: 0.3rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
     text-align: center;
     cursor: pointer;
-    font-size: 1.5em;
+    font-size: 1.8rem;
 }
 
 .social-icon
@@ -140,13 +165,13 @@ h1,h2,h3,h4,h5,h6
 .social-icon  i
 {
     color: black;
-    margin-left: 10px;
+    margin-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3em;
-    width: 35px;
-    height: 35px;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
     background: var(--white);
     border-radius: 50%;
 }
@@ -160,7 +185,7 @@ h1,h2,h3,h4,h5,h6
 {
     /*display none es para ocultar el menu temporalmente*/
     position: absolute;
-    top: 60px;
+    top: 6rem;
     left: 0;
     width: 100%;
     background: rgba(0,0,0,.85);
@@ -178,10 +203,12 @@ h1,h2,h3,h4,h5,h6
 .menu__link
 {
     display: block;
-    padding: 15px;
+    padding: 1.5rem;
     color: var(--white);
     text-decoration: none;
+    font-size: 1.1rem;
 }
+
 .menu__link:hover
 {
     background: var(--orange);
@@ -195,14 +222,14 @@ h1,h2,h3,h4,h5,h6
 .mostrar
 {
     /*Es importante que sea y un numero para que pueda animarse*/
-    height: 196px;
+    height: 19.6rem;
 }
 
 /*----------Estilos banner----------*/
 
 .banner
 {
-    margin-top: -55px;
+    margin-top: -5.5rem;
     position: relative;
 }
     /*Poner de color obscuro el banner*/
@@ -220,9 +247,11 @@ h1,h2,h3,h4,h5,h6
 .banner__img
 {
     width: 100%;
-    height: 500px;
+    height: 50rem;
     /*arreglar la imagen para que no se estire*/
     object-fit: cover;
+    padding: 0;
+    border-radius: 0;
 }
 
 .banner__content
@@ -235,7 +264,7 @@ h1,h2,h3,h4,h5,h6
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    font-size: 1.5em;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
@@ -243,35 +272,27 @@ h1,h2,h3,h4,h5,h6
 {
     text-align: center;
     font-weight: 100;
-    font-size: 1.8em;
-    margin: 30px;
+    font-size: 1.8rem;
+    margin: 3rem;
 }
 
 .group--color .container
 {
     background: var(--orange);
     color: var(--white);
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
-}
-
-.main__title
-{
-    margin: 15px 0;
-    font-weight: 100;
-    font-size: 1.8em;
-
 }
 
 .column__title
 {
-    font-size: 1.3em;
+    font-size: 1.6rem;
     text-align: center;
 }
 
 .main__about__description .column:nth-child(2)
 {
-    padding: 10px;
+    padding: 1rem;
 }
 
 /*----------Estilos del footer----------*/
@@ -280,14 +301,15 @@ h1,h2,h3,h4,h5,h6
 {
     background: #222;
     color: var(--white);
-    padding: 20px 10px;
-    font-size: 0.8em;
+    padding: 2rem 1rem;
+    font-size: 1rem;
 }
 
 .copy
 {
     text-align: center;
-    margin: 15px auto;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
 }
 
 .copy a

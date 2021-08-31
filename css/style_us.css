@@ -1,29 +1,21 @@
-.group__tilte
-{
-    text-align: center;
-    font-size: 28.8px;
-    margin: 30px;
-}
-
-.our-team__title
-{
-    text-align: center;
-    font-size: 1.8em;
-    color: var(--orange);
-}
 .our-team__img
 {
-    width: 200px;
-    height: 200px;
+    width: 30rem;
+    height: 20rem;
     object-fit: cover;
     border-radius: 50%;
-    margin: 20px auto;
-    border: 5px solid #ddd;
-    padding: 5px;
+    margin: 2rem auto;
+    border: 0.5rem solid #ddd;
+    padding: 0.5rem;
 }
 
-.our-team__txt
+.our-team .column__title
+{
+    color: var(--orange);
+}
+
+.our-team .column__txt
 {
     text-align: center;
-    padding: 0 10px;
+    padding: 0 1rem;
 }
