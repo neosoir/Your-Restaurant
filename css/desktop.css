@@ -1,8 +1,13 @@
-/*----------Genericos----------*/
-.menu__link
+
+/*----------Estilos base----------*/
+
+.container
 {
-    font-size: 1.5rem;
+    width: 90%;
+    border-radius: 1.5rem;
 }
+
+/*----------Titulos y textos----------*/
 
 .column__txt
 {
@@ -14,19 +19,20 @@
     font-size: 2.6rem;
 }
 
+.column__title
+{
+    font-size: 2.4rem;
+}
+
+
 .btn
 {
     font-size: 1.5rem;
 }
 
 
-/*----------Inicio------------*/
+/*----------Estilos header----------*/
 
-.container
-{
-    width: 90%;
-    border-radius: 1.5rem;
-}
 .logo
 {
     font-size: 4rem;
@@ -56,7 +62,8 @@
     font-size: 3.6rem;
 }
 
-/*Quitamos el icono de menu*/
+    /*Quitamos el icono de menu*/
+
 .icon-menu
 {
     display: none;
@@ -73,17 +80,15 @@
 .menu__link
 {
     padding: 2rem;
+    font-size: 1.5rem;
 }
+
+/*---------Inicio---------*/
 
 .group--color 
 {
     margin-top: 3rem 0;
     padding: 2rem;
-}
-
-.column__title
-{
-    font-size: 2.4rem;
 }
 
 .today-special__title
@@ -96,15 +101,6 @@
     font-size: 1.9rem;
 }
 
-.main-footer
-{
-    padding: 3rem 0;
-}
-
-/*----------Contacto------------*/
-
-
-
 /*----------Galeria------------*/
 
 .gallery .column--50-25
@@ -112,9 +108,15 @@
     width: 24%;
 }
 
-/*Footer*/
+/*----------Footer----------*/
 
 .copy
 {
     font-size: 1.6rem;
+}
+
+
+.main-footer
+{
+    padding: 3rem 0;
 }

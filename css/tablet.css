@@ -1,4 +1,16 @@
-/*Genericos*/
+/*----------Titulos y textos----------*/
+
+.column__title
+{
+    font-size: 2rem;
+}
+
+.column__txt
+{
+    font-size: 1.3rem;
+}
+
+/*----------Estilos base----------*/
 
 .menu__link
 {
@@ -22,6 +34,24 @@ img
 {
     font-size: 1.3rem;
 }
+
+.column--50
+{
+    width: 49%;
+}
+
+.column--50-25
+{
+    width: 49%;
+}
+
+.column--33
+{
+    width: 32%;
+    text-align: center;
+}
+
+/*----------Estilos header----------*/
 
 .logo
 {
@@ -78,11 +108,7 @@ img
     font-size: 1.8rem;
 }
 
-
-
-
-
-/*Seccion ...*/
+/*----------Inicio----------*/
 
 .today-special__title
 {
@@ -105,16 +131,6 @@ img
     height: 20rem;
 }
 
-.column__title
-{
-    font-size: 2rem;
-}
-
-.column__txt
-{
-    font-size: 1.3rem;
-}
-
 /*alinear los contenedores*/
 
 .main-footer .container--flex
@@ -122,22 +138,8 @@ img
     align-items: flex-start;
 }
 
-.column--50
-{
-    width: 49%;
-}
 
-.column--50-25
-{
-    width: 49%;
-}
-
-.column--33
-{
-    width: 32%;
-    text-align: center;
-}
-/*Nosotros*/
+/*----------Nosotros----------*/
 
 .our-team__img
 {
@@ -146,7 +148,7 @@ img
     border-radius: 50%;
 }
 
-/*Galeria*/
+/*----------Galeria----------*/
 
 .gallery__img
 {
@@ -163,7 +165,7 @@ img
     transform: scale(1.05);
 }
 
-/*-------Click en la img-------*/
+    /*Click en la img*/
 
 .modal
 {
@@ -213,21 +215,21 @@ img
     font-family: 'Pacifico', cursive;
 }
 
-/*Para que se muestre*/
+    /*Para que se muestre*/
 
 .modal--open
 {
     display: block;
 }
 
-/*Contacto*/
+/*----------Contacto----------*/
 
     /*para alinear los bloques*/
+
 .contact .container--flex
 {
     align-items: flex-start;
 }
-
 
 .contact-information 
 {
@@ -235,7 +237,7 @@ img
     border-right: 0.1rem solid #de423a;
 }
 
-/*Footer*/
+/*----------Footer----------*/
 
 .copy
 {

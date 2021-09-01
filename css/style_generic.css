@@ -45,6 +45,50 @@ body
 --black: black;
 }
 
+/*----------Titulos y textos----------*/
+
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.column__title
+{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.column__txt
+{
+    font-size: 1.1rem;
+}
+
+.group__title
+{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin: 3rem;
+}
+
+
+.btn
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 12rem;
+    background: var(--orange);
+    color: var(--white);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
 /*----------Estilos base----------*/
 
 img
@@ -55,11 +99,7 @@ img
     max-width: 100%;
     border-radius: 1rem;
 }
-h1,h2,h3,h4,h5,h6
-{
-    margin: 0;
-    font-family: 'Pacifico', cursive;
-}
+
 
 .container
 {
@@ -80,26 +120,6 @@ h1,h2,h3,h4,h5,h6
     width: 100%;
 }
 
-.column__txt
-{
-    font-size: 1.1rem;
-}
-
-.btn
-{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    width: 12rem;
-    background: var(--orange);
-    color: var(--white);
-    padding: 1rem;
-    margin: 1rem auto;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-}
 
 /*----------Estilos header----------*/
 
@@ -248,7 +268,6 @@ h1,h2,h3,h4,h5,h6
 {
     width: 100%;
     height: 50rem;
-    /*arreglar la imagen para que no se estire*/
     object-fit: cover;
     padding: 0;
     border-radius: 0;
@@ -268,13 +287,6 @@ h1,h2,h3,h4,h5,h6
     font-weight: bold;
 }
 
-.group__title
-{
-    text-align: center;
-    font-weight: 100;
-    font-size: 1.8rem;
-    margin: 3rem;
-}
 
 .group--color .container
 {
@@ -284,11 +296,7 @@ h1,h2,h3,h4,h5,h6
     text-align: center;
 }
 
-.column__title
-{
-    font-size: 1.6rem;
-    text-align: center;
-}
+
 
 .main__about__description .column:nth-child(2)
 {
