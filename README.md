@@ -15,5 +15,6 @@ Detailed description:
 2) Font: Montserrat and Pacifico.
 4) Icons: [Font Awesome](https://fontawesome.com/ "Font Awesome").
 5) Images: [Pexels](https://www.pexels.com/es-es/ "Pexels").
+6) Image compression: [Tiny PNG](https://tinypng.com/ “Tiny PNG”).
 
 Powered by [Neo Soir](https://neosoir.com/contact/ "Neo Soir").
